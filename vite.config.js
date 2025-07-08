@@ -9,6 +9,9 @@ export default defineConfig(({ command }) => {
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
+    // 🔽 BURAYA BASE EKLENDİ
+    base: '/goit-js-hw-10/',
+
     root: 'src',
     build: {
       sourcemap: true,
