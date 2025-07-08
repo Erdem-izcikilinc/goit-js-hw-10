@@ -25,7 +25,7 @@ form.addEventListener('submit', (e) => {
         position: 'topRight',
         icon: '',
       });
-      console.log(`✅ Fulfilled promise in ${delay}ms`);
+      console.log(`Fulfilled promise in ${delay}ms`);
     })
     .catch((delay) => {
       iziToast.error({
@@ -33,7 +33,7 @@ form.addEventListener('submit', (e) => {
         position: 'topRight',
         icon: '',
       });
-      console.log(`❌ Rejected promise in ${delay}ms`);
+      console.log(`Rejected promise in ${delay}ms`);
     });
 
   form.reset();
